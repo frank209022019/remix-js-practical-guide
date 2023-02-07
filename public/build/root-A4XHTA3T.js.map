@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../app/root.tsx"],
-  "sourcesContent": ["import type { MetaFunction } from \"@remix-run/node\";\nimport {\n  Links,\n  LiveReload,\n  Meta,\n  Outlet,\n  Scripts,\n  ScrollRestoration,\n} from \"@remix-run/react\";\n\nimport TailwindStlyes from \"../app/styles/tailwind.css\";\n\nexport const meta: MetaFunction = () => ({\n  charset: \"utf-8\",\n  title: \"New Remix App\",\n  viewport: \"width=device-width,initial-scale=1\",\n});\n\nexport default function App() {\n  return (\n    // Apply daisyUI theme\n    <html lang=\"en\" data-theme=\"light\">\n      <head>\n        <Meta />\n        <Links />\n        <link rel=\"stylesheet\" href={TailwindStlyes} />\n      </head>\n      <body>\n        <Outlet />\n        <ScrollRestoration />\n        <Scripts />\n        <LiveReload />\n      </body>\n    </html>\n  );\n}\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;AAuBQ;AAXD,IAAM,OAAqB,OAAO;AAAA,EACvC,SAAS;AAAA,EACT,OAAO;AAAA,EACP,UAAU;AACZ;AAEe,SAAR,MAAuB;AAC5B,SAEE,mDAAC,UAAK,MAAK,MAAK,cAAW,SACzB;AAAA,uDAAC,UACC;AAAA,yDAAC,UAAD;AAAA;AAAA;AAAA;AAAA,aAAM;AAAA,MACN,mDAAC,WAAD;AAAA;AAAA;AAAA;AAAA,aAAO;AAAA,MACP,mDAAC,UAAK,KAAI,cAAa,MAAM,oBAA7B;AAAA;AAAA;AAAA;AAAA,aAA6C;AAAA,SAH/C;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,IACA,mDAAC,UACC;AAAA,yDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,aAAQ;AAAA,MACR,mDAAC,uBAAD;AAAA;AAAA;AAAA;AAAA,aAAmB;AAAA,MACnB,mDAAC,aAAD;AAAA;AAAA;AAAA;AAAA,aAAS;AAAA,MACT,mDAAC,gBAAD;AAAA;AAAA;AAAA;AAAA,aAAY;AAAA,SAJd;AAAA;AAAA;AAAA;AAAA,WAKA;AAAA,OAXF;AAAA;AAAA;AAAA;AAAA,SAYA;AAEJ;",
-  "names": []
-}

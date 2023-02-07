@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -8,7 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import TailwindStlyes from "../app/styles/tailwind.css";
+import TailwindCSS from "./styles/tailwind.css"
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -18,12 +18,11 @@ export const meta: MetaFunction = () => ({
 
 export default function App() {
   return (
-    // Apply daisyUI theme
-    <html lang="en" data-theme="light">
+    // Apply daisyUI theme to data-theme
+    <html lang="en" data-theme="cupcake">
       <head>
         <Meta />
         <Links />
-        <link rel="stylesheet" href={TailwindStlyes} />
       </head>
       <body>
         <Outlet />
@@ -34,3 +33,20 @@ export default function App() {
     </html>
   );
 }
+
+export const links: LinksFunction = () => {
+  return [
+    {
+      rel: "stylesheet",
+      href: TailwindCSS,
+    },
+    // {
+    //   rel: "stylesheet",
+    //   href: BootstrapCSS,
+    // },
+    // {
+    //   rel: "stylesheet",
+    //   href: MainCSS,
+    // },
+  ];
+};

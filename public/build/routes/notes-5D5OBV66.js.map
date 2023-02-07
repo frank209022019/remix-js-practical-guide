@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/notes.tsx"],
+  "sourcesContent": ["export default function Notes() {\r\n    return (\r\n        <main>\r\n            <h1>My Notes</h1>\r\n        </main>\r\n    )\r\n}"],
+  "mappings": ";;;;;;AAGY;AAHG,SAAR,QAAyB;AAC5B,SACI,mDAAC,UACG,6DAAC,QAAG,wBAAJ;AAAA;AAAA;AAAA;AAAA,SAAY,KADhB;AAAA;AAAA;AAAA;AAAA,SAEA;AAER;",
+  "names": []
+}
