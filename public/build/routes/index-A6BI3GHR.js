@@ -6,7 +6,7 @@ import {
 // app/routes/index.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container mx-auto mt-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex w-full", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "artboard phone-4 mx-auto mt-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex w-full", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "grid h-20 flex-grow card bg-base-300 rounded-box place-items-center", children: "content" }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 6,
@@ -35,4 +35,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-6WLUA5VU.js.map
+//# sourceMappingURL=/build/routes/index-A6BI3GHR.js.map
