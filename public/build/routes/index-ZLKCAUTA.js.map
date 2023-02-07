@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["\nexport default function Index() {\n  \n  return (\n    <h1>Helow World</h1>\n  )\n}\n"],
+  "mappings": ";;;;;;AAII;AAHW,SAAR,QAAyB;AAE9B,SACE,mDAAC,QAAG,2BAAJ;AAAA;AAAA;AAAA;AAAA,SAAe;AAEnB;",
+  "names": []
+}
