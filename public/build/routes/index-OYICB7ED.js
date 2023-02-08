@@ -35,4 +35,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-A6BI3GHR.js.map
+//# sourceMappingURL=/build/routes/index-OYICB7ED.js.map

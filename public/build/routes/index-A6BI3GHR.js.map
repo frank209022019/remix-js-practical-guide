@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.tsx"],
-  "sourcesContent": ["export default function Index() {\n\n  return (\n    <div className=\"artboard phone-4 mx-auto mt-3\">\n      <div className=\"flex w-full\">\n      <div className=\"grid h-20 flex-grow card bg-base-300 rounded-box place-items-center\">content</div>\n      <div className=\"divider divider-horizontal\"></div>\n      <div className=\"grid h-20 flex-grow card bg-base-300 rounded-box place-items-center\">content</div>\n    </div>\n    </div>\n  );\n}\n\n"],
-  "mappings": ";;;;;;AAKM;AALS,SAAR,QAAyB;AAE9B,SACE,mDAAC,SAAI,WAAU,iCACb,6DAAC,SAAI,WAAU,eACf;AAAA,uDAAC,SAAI,WAAU,uEAAsE,uBAArF;AAAA;AAAA;AAAA;AAAA,WAA4F;AAAA,IAC5F,mDAAC,SAAI,WAAU,gCAAf;AAAA;AAAA;AAAA;AAAA,WAA4C;AAAA,IAC5C,mDAAC,SAAI,WAAU,uEAAsE,uBAArF;AAAA;AAAA;AAAA;AAAA,WAA4F;AAAA,OAH5F;AAAA;AAAA;AAAA;AAAA,SAIF,KALA;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;",
-  "names": []
-}
